@@ -1,0 +1,33 @@
+div#top-bar-wrap {
+display: none!important;
+}
+
+#header.elementor-sticky--effects {
+background-color: #fff;
+transition: all .5s ease;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+#header.elementor-sticky--effects .logo img {
+content:url('https://micaelasoarespinheiro.com/wp-content/uploads/2020/09/Logo-MR-e1599180619223.png') !important;
+width: 40%;
+
+}
+
+#header.elementor-sticky--effects .roblox li a {
+color: #ec8c08!important;
+}
+
+/*Codigo para funcionar no Firefox*/
+#header.elementor-sticky--effects .logo:before {
+    content:url('https://micaelasoarespinheiro.com/wp-content/uploads/2020/09/Logo-MR-e1599180619223.png');
+    position: absolute;
+    left: 0;
+    right: 0;
+    }
+#header.elementor-sticky--effects .logo img {
+    opacity: 0;
+    }
+/*OBSERVAÇÃO: Troque os links do código acima para o link da sua logo no WordPress*/
